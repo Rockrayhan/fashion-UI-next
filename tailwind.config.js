@@ -13,10 +13,18 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require('daisyui')],
   daisyui: {
-    themes: ["light"], // Set the default theme to 'light'
+    themes: [
+      {
+        light: {
+          primary: "#8F71E1", // Set your custom primary color here
+          secondary: "teal", // Custom secondary color
+          accent: "#37CDBE",
+          neutral: "#3D4451",
+          "base-100": "#FFFFFF",
+        },
+      },
+    ],
   },
 };
