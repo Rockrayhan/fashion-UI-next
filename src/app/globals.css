@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    background-color: #F4F8FF;
+}
+
+
+/* styles.css */
+.container {
+    @apply mx-auto max-w-screen-xl;
+  }
+
+
+.center {
+    @apply flex justify-center items-center;
+  }
