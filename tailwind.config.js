@@ -19,9 +19,9 @@ module.exports = {
       {
         light: {
           primary: "#8F71E1", // Set your custom primary color here
-          secondary: "teal", // Custom secondary color
-          accent: "#37CDBE",
-          neutral: "#3D4451",
+          secondary: "#7E53D4", // Custom secondary color
+          accent: "#EEECFB",
+          neutral: "#F6F5FD",
           "base-100": "#FFFFFF",
         },
       },
